@@ -161,3 +161,31 @@ body
         text-align: end
         grid-column: 3
         grid-row: 3
+
+    .request-list__buttons
+        grid-column: 1
+        grid-row: 3
+        display: flex
+
+    .request-list__button
+        padding: 5px
+        width: 80px
+        border: none
+        color: #333
+        cursor: pointer
+
+    .request-list__button_accept
+        background-color: #a5d6a7
+
+        &:hover
+            color: #fafafa
+            background-color: #4caf50
+            transition: .8s
+
+    .request-list__button_decline
+        background-color: #ef9a9a
+
+        &:hover
+            color: #fafafa
+            background-color: #f44336
+            transition: .8s
